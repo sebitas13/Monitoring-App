@@ -50,7 +50,7 @@ function App() {
           <p>Temperatura (C): {data.temp_c}</p>
           <p>Temperatura (F): {data.temp_f}</p>
           <p>Humedad: {data.hume}</p>
-          <p>Sensor de Tierra: {data.s_ter}</p>
+          <p>Sensacion termica: {data.s_ter} % </p>
           <p>Luz (LDR): {data.ldr}</p>
         </div>
       ) : (
